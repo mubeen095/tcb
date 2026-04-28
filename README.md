@@ -1,142 +1,194 @@
-<p align="center">
-  <a href="https://learnhouse.app">
-    <img src=".github/images/learnhouse-github.png" alt="LearnHouse" width="600" />
-  </a>
-</p>
+<a href="https://classroomio.com/">
+  <img alt="ClassroomIO is a no-code tool that allows you build and scale your online bootcamp with ease." src="https://raw.githubusercontent.com/classroomio/classroomio/main/apps/classroomio-com/static/classroomio-opengraph-image.png" />
+  <h1 align="center">ClassroomIO.com</h1>
+  <p align="center">
+    The Open Source Learning Management System for Companies
+    <br />
+    <a href="https://classroomio.com">Website</a>  |  <a href="https://dub.sh/ciodiscord">Join Discord community</a>
+  </p>
+</a>
 
-<h3 align="center">The next-gen open-source platform for world-class educational content.</h3>
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/629e2bb8994345729513c4d69ccbe3d5)](https://app.codacy.com/gh/classroomio/classroomio?utm_source=github.com&utm_medium=referral&utm_content=classroomio/classroomio&utm_campaign=Badge_Grade)
 
-<p align="center">
-  <a href="https://github.com/learnhouse/learnhouse/blob/main/LICENSE"><img src="https://img.shields.io/github/license/learnhouse/learnhouse?style=flat&color=blue" alt="License" /></a>
-  <a href="https://github.com/learnhouse/learnhouse/stargazers"><img src="https://img.shields.io/github/stars/learnhouse/learnhouse?style=flat" alt="Stars" /></a>
-  <a href="https://www.npmjs.com/package/learnhouse"><img src="https://img.shields.io/npm/v/learnhouse?style=flat&label=cli" alt="CLI Version" /></a>
-  <a href="https://app.codecov.io/gh/learnhouse/learnhouse"><img src="https://img.shields.io/codecov/c/github/learnhouse/learnhouse?flag=api&label=api%20coverage" alt="API Coverage" /></a>
-  <a href="https://github.com/learnhouse/learnhouse/commits"><img src="https://img.shields.io/github/last-commit/learnhouse/learnhouse?style=flat&label=last%20commit" alt="Last Commit" /></a>
-  <a href="https://github.com/learnhouse/learnhouse/issues"><img src="https://img.shields.io/github/issues/learnhouse/learnhouse?style=flat" alt="Issues" /></a>
-  <a href="https://github.com/learnhouse/learnhouse/pulls"><img src="https://img.shields.io/github/issues-pr/learnhouse/learnhouse?style=flat&label=PRs" alt="Pull Requests" /></a>
-</p>
+## ✨ About ClassroomIO.com
 
-<p align="center">
-📖 <b>Courses</b> — Create and manage courses with ease<br>
-✏️ <b>Editor</b> — Powerful block-based Notion-like content editor<br>
-📦 <b>Collections</b> — Organize courses into curated bundles<br>
-📝 <b>Assignments</b> — Create tasks and track student submissions<br>
-💬 <b>Discussions</b> — Community forums for your learners<br>
-🎙️ <b>Podcasts</b> — Audio content for on-the-go learning<br>
-📊 <b>Analytics</b> — Track engagement and course performance<br>
-🧊 <b>Playgrounds</b> — AI-generated interactive elements, simulations & diagrams<br>
-💻 <b>Code</b> — Real code execution with auto-grading in 30+ languages<br>
-📋 <b>Boards</b> — Real-time collaborative whiteboards<br>
-🧠 <b>AI</b> — Context-aware AI for learning & teaching<br>
-🎓 <b>Certificates</b> — Auto-generate certificates on course completion<br>
-👥 <b>User Groups</b> — Organize learners and control access<br>
-🔍 <b>SEO</b> — Built-in SEO optimization with metadata, sitemaps & open graph<br>
-🎨 <b>Customization</b> — Custom branding, landing pages & theming<br>
-💳 <b>Payments (Enterprise)</b> — Sell courses with no fees and no lock-in<br>
-🔐 <b>SSO (Enterprise)</b> — Single sign-on with OAuth providers<br>
-🏢 <b>Multi-Org (Enterprise)</b> — Run multiple organizations from a single instance<br>
-</p>
+<img alt="ClassroomIO Courses page" src="https://raw.githubusercontent.com/classroomio/classroomio/main/apps/classroomio-com/static/classroomio-courses.png" />
 
-## 🚀 Get Started
+Streamline training for everyone with ClassroomIO.com. Our all-in-one platform empowers bootcamps, educators, and businesses to manage training programs easily. With our platform, anyone can run multiple classes and cohorts all from one UI. The application is mobile-first, which means that students can access your lesson materials from any device.
 
-LearnHouse has an official CLI that handles everything — self-hosting, updates, backups, and local development.
+### Mission: Provide Students with the Best Learning Experience
 
-### Self-host
+At ClassroomIO, our mission is to provide students with the best possible learning experience. We believe in empowering educators with the tools they need to deliver high-quality education that is accessible, engaging, and effective.
 
-```bash
-npx learnhouse@latest setup
-```
+### Key Features
 
-The setup wizard walks you through domain, database, admin account, and optional features. Once done, it generates all config files and starts your instance.
+1. **📚 Advanced Course Management:** You can create unlimited courses, create lessons, invite students, add assignments, grade their assignments, and even generate certificates.
+2. **👨‍👩‍👦 Multi-Teacher Management:** You can invite other teachers into your organization and assign them individual courses.
+3. **🤖 AI Integration:** We've got OpenAI integration for quick course creation where you can generate course content, lesson outlines, and even generate assignments right from your lesson notes.
+4. **💬 Forum:** Students can ask questions in your dedicated community and get answers from either you or other students.
+5. **💻 Dedicated Student Dashboard:** Once you create an account, you get a dedicated dashboard where your students can access all their courses, assignments, and more.
+6. **🔒 Fully open source:** You can self-host the entire stack on your servers.
 
-```bash
-npx learnhouse start       # Start services
-npx learnhouse stop        # Stop services
-npx learnhouse update      # Update to latest version
-npx learnhouse logs        # Stream logs
-npx learnhouse backup      # Backup database
-npx learnhouse doctor      # Diagnose issues
-```
+### Roadmap Features
 
-### Development
+1. **Forms:** Instead of using Google Forms to collect vital information from your students, you will be able to create forms directly within the dashboard.
+2. **Course Templates:** You can clone a full course or share templates with other people.
+3. **Analytics:** You can track data about your students across multiple courses.
+4. **Run Courses on Messengers:** Students can just join a channel on slack/discord/telegram and a bot automatically sends daily lesson content to your students without you doing anything.
 
-```bash
-git clone https://github.com/learnhouse/learnhouse.git
-cd learnhouse
-npx learnhouse dev
-```
+Please reach out to me on [twitter](https://x.com/rotimi_best) if you have any feature request.
 
-This spins up PostgreSQL and Redis, installs dependencies, and starts the API, Web, and Collab servers with hot reload.
+## Built With
 
-> See the full [CLI documentation](apps/cli/README.md) for all commands and options.
+- [SvelteKit](https://kit.svelte.dev/?ref=classroomio.com)
+- [Supabase](https://supabase.com/?ref=classroomio.com)
+- [TailwindCSS](https://tailwindcss.com/?ref=classroomio.com)
 
-## 🛠️ Tech Stack
+## Get a Demo
 
-<p align="center">
-<a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js-000?style=flat&logo=nextdotjs&logoColor=white" alt="Next.js" /></a>
-<a href="https://react.dev"><img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React" /></a>
-<a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" /></a>
-<a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="TailwindCSS" /></a>
-<a href="https://www.radix-ui.com"><img src="https://img.shields.io/badge/Radix_UI-161618?style=flat&logo=radixui&logoColor=white" alt="Radix UI" /></a>
-<a href="https://tiptap.dev"><img src="https://img.shields.io/badge/Tiptap-1a1a2e?style=flat&logoColor=white" alt="Tiptap" /></a>
-<a href="https://codemirror.net"><img src="https://img.shields.io/badge/CodeMirror-D30707?style=flat&logo=codemirror&logoColor=white" alt="CodeMirror" /></a>
-<a href="https://yjs.dev"><img src="https://img.shields.io/badge/Yjs-6EEB83?style=flat&logoColor=black" alt="Yjs" /></a>
-<a href="https://fastapi.tiangolo.com"><img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" /></a>
-<a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" /></a>
-<a href="https://www.postgresql.org"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL" /></a>
-<a href="https://redis.io"><img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" alt="Redis" /></a>
-<a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" /></a>
-<a href="https://stripe.com"><img src="https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white" alt="Stripe" /></a>
-<a href="https://ai.google.dev"><img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white" alt="Gemini" /></a>
-<a href="https://www.llamaindex.ai"><img src="https://img.shields.io/badge/LlamaIndex-000?style=flat&logoColor=white" alt="LlamaIndex" /></a>
-<a href="https://aws.amazon.com/s3"><img src="https://img.shields.io/badge/AWS_S3-569A31?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyTDIgN3YxMGwxMCA1IDEwLTVWN0wxMiAyem0wIDIuMThMMTkuMTggNyAxMiA5LjgyIDQuODIgNyAxMiA0LjE4ek00IDguNjRsNyAzLjVWMTkuNWwtNy0zLjVWOC42NHptMTAgMTAuODZWMTIuMTRsNy0zLjV2Ny4zNmwtNyAzLjV6Ii8+PC9zdmc+&logoColor=white" alt="AWS S3" /></a>
-<a href="https://www.tinybird.co"><img src="https://img.shields.io/badge/Tinybird-1A1A1A?style=flat&logoColor=white" alt="Tinybird" /></a>
-</p>
+You can book a quick 15 min demo to see if ClassroomIO is a good fit for you
 
-## 📁 Project Structure
+<a href="https://cal.com/classroomio/demo">
+  <img src="https://cal.com/book-with-cal-dark.svg" alt="Book a Call with ClassroomIO.com">
+</a>
 
-| App | Path | Description | Technology | Used by |
-|-----|------|-------------|------------|---------|
-| **Web** | `apps/web` | Frontend application — dashboard, course player, editor, landing pages | Next.js, React, TailwindCSS, Tiptap | Teachers, Students, Admins |
-| **API** | `apps/api` | Backend REST API — auth, courses, payments, AI, analytics | FastAPI, Python, SQLModel, Alembic | Web, CLI, Collab |
-| **Collab** | `apps/collab` | Real-time collaboration server — live editing sync for courses & boards | Hocuspocus, Yjs, WebSocket | Web (editor, boards) |
-| **CLI** | `apps/cli` | Official CLI — setup wizard, dev environment, instance management | Commander, Node.js | Developers, Self-hosters |
+<!-- GETTING STARTED -->
 
-## 💬 Community
+## Getting Started
 
-- [Discord](https://discord.gg/CMyZjjYZ6x) — chat with the team and other users
-- [Documentation](https://docs.learnhouse.app) — guides and references
+To get a local copy up and running, please follow these simple steps.
 
-## 🤝 Contributing
+### Prerequisites
 
-```bash
-git clone https://github.com/learnhouse/learnhouse.git
-cd learnhouse
-npx learnhouse dev
-```
+Here is what you need to be able to run ClassroomIO.com
 
-- [Contributing Guide](CONTRIBUTING.md)
-- [Submit a bug](https://github.com/learnhouse/learnhouse/issues/new?assignees=&labels=bug%2Ctriage&projects=&template=bug.yml&title=%5BBug%5D%3A+)
-- [Good first issues](https://github.com/learnhouse/learnhouse/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+- [Node.js](https://nodejs.org/) (Version: >=22.x)
+- [Supabase CLI](https://github.com/supabase/cli)
+- [Docker](https://docs.docker.com/engine/install/)
+- [NPM](https://www.npmjs.com/)
 
-## 🔒 Security
+### Project Structure
 
-We take the security of LearnHouse and the data entrusted to us seriously. If you discover a vulnerability, please email **security@learnhouse.app** — do not disclose it publicly until we've had a chance to investigate.
+This repo is a mono repo that consists of 3 projects:
 
-Please include a clear description, steps to reproduce, affected endpoints, and any relevant screenshots or proof-of-concept code. We will acknowledge your report, keep you informed, and credit you once resolved if you wish.
+1. `classroomio-com`: The landing page of ClassroomIO hosted [here](https://classroomio.com)
+2. `api`: The api service that handles PDF, video processing, Emailing and Notifications.
+3. `dashboard`: The web application that runs the learning management system hosted [here](https://app.classroomio.com).
+4. `docs`: Official documentation of ClassroomIO hosted [here](https://classroomio.com/docs)
 
-See our full [Security Policy](https://learnhouse.app/security) for details on our practices, scope, and responsible disclosure guidelines.
+## Development
 
-## ✍️ Author & Maintainer
+### Gitpod Setup
 
-Sweave (Badr B.) — [@swve](https://github.com/swve)
+1. Click the button below to open this project in Gitpod.
 
-## 💜 A Word
+2. This will open a fully configured workspace in your browser with all the necessary dependencies already installed.
 
-LearnHouse is made with 💜, from the UI to the features it is carefully designed to make students and teachers lives easier and make education software more enjoyable.
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/classroomio/classroomio)
 
-Thank you and have fun using/developing/testing LearnHouse !
+### Local Setup
 
-## 📄 License
+1. Fork the repo, then clone it using the following command (remember to replace the url with the url from your forked repo)
 
-[AGPL-3.0](LICENSE) — Enterprise features are available under a separate Enterprise License.
+   ```bash
+   git clone https://github.com/classroomio/classroomio.git
+   ```
+
+2. Go to project folder
+
+   ```bash
+   cd classroomio
+   ```
+
+3. Set up Node if your Node version does not meet the project's requirements, as instructed by the documentation., "nvm" (Node Version Manager) allows using Node at the version required by the project:
+
+   ```bash
+   nvm use
+   ```
+
+   You first might need to install the specific version and then use it:
+
+   ```bash
+   nvm install && nvm use
+   ```
+
+   You can install nvm from [here](https://github.com/nvm-sh/nvm).
+
+   You also need to have pnpm installed, you can find the installation guide [here](https://pnpm.io/installation#using-npm)
+
+4. Set up your `.env` file
+
+   - Go to `apps/dashboard` and `apps/api`.
+   - Duplicate the `.env.example` file and rename it to `.env`
+   - Populate your .env files with the neccessary variables
+
+To get the environmental variables for supabase continue to step(5)
+
+1. Install all dependencies
+
+   ```bash
+   pnpm i
+   ```
+
+2. Setup Supabase.
+
+   - Install and Start [docker](https://docs.docker.com/engine/install/)
+   - Install [Supabase CLI](https://supabase.com/docs/guides/local-development/cli/getting-started) on your computer
+   - Go to the project directory in your terminal and start Supabase
+
+     ```bash
+       supabase start
+     ```
+
+   - You should get a result like this
+
+     ```bash
+       supabase local development setup is running.
+
+         API URL: http://127.0.0.1:54321
+     GraphQL URL: http://127.0.0.1:54321/graphql/v1
+           DB URL: postgresql://postgres:postgres@127.0.0.1:54322/postgres
+       Studio URL: http://127.0.0.1:54323
+     Inbucket URL: http://127.0.0.1:54324
+       JWT secret: super-secret-jwt-token-with-at-least-32-characters-long
+         anon key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTZ9.CRXP1A7WOeoJeXxjNni43kdQwgnWNReilDMblYTn_I0
+     service_role key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImV4cCI6MTk4MzgxMjk5Nn0.EGIM96RAZx35lJzdJsyH-qQwv8Hdp7fsn3W0YpN81IU
+     ```
+
+   - Add Supabase environment variables into `app/dashboard` folder, which should be taken from the result of `supabase start`
+
+     ```env
+       PUBLIC_SUPABASE_URL=<API URL>
+       PUBLIC_SUPABASE_ANON_KEY=<anon key>
+       PRIVATE_SUPABASE_SERVICE_ROLE=<service_role key>
+     ```
+
+   - To view the Supabase studio, open the Studio URL from the result of `supabase start`
+
+3. Run all projects (in development mode)
+
+   ```bash
+   pnpm dev
+   ```
+
+4. All projects should start running
+
+   - `classroomio-com`: [http://localhost:5174](http://localhost:5174)
+   - `api`: [http://localhost:3002](http://localhost:3002)
+   - `dashboard`: [http://localhost:5173](http://localhost:5173)
+   - `docs`: [http://localhost:3000](http://localhost:3000)
+
+5. Running a specific project
+
+   - **classroomio-com**: `pnpm dev --filter=@cio/classroomio-com`
+   - **api**: `pnpm dev --filter=@cio/api`
+   - **dashboard**: `pnpm dev --filter=@cio/dashboard`
+   - **docs**: `pnpm dev --filter=@cio/docs`
+
+6.  Login into `dashboard`
+
+    - Visit [http://localhost:5173/login](http://localhost:5173/login)
+    - Enter email: `admin@test.com`
+    - Enter password: `123456`
+     
+    To learn more about how to login with a dummy account, [go here.](https://classroomio.com/docs/contributor-guides/demo-accounts)

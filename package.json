@@ -1,0 +1,35 @@
+{
+  "name": "classroomio",
+  "version": "0.1.13",
+  "scripts": {
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "dev": "turbo prepare --concurrency 13 && turbo run dev",
+    "lint": "turbo run lint",
+    "clean": "turbo clean && find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",
+    "clean:pnpm": "pnpm clean && pnpm store prune",
+    "format": "prettier . --write",
+    "release": "standard-version",
+    "ci": "cypress run",
+    "dashboard:start": "pnpm start --filter @cio/dashboard",
+    "api:start": "pnpm start --filter @cio/api",
+    "supabase:push": "pnpx supabase link --project-ref $PROJECT_ID && pnpx supabase db push --include-all"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "turbo": "^1.10.16"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "prettier-plugin-svelte": "^3.1.2",
+    "prettier-plugin-tailwindcss": "^0.5.7",
+    "standard-version": "^9.5.0",
+    "tsconfig": "workspace:*",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": "^20.19.3"
+  }
+}

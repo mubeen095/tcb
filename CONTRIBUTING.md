@@ -1,34 +1,29 @@
-# Contributing to LearnHouse
+# Contributing to ClassroomIO.com
 
-## Getting Started
+First and foremost, we're absolutely thrilled that you're considering becoming a part of the community
 
-To set up your development environment, use the LearnHouse CLI:
+## Issue Hunters
 
-```bash
-git clone https://github.com/learnhouse/learnhouse.git
-cd learnhouse
-npx learnhouse dev
-```
+Did you stumble upon a bug? Encountered a hiccup in deployment? Perhaps you have some user feedback to share? Your quickest route to help us out is by [raising an issue](https://github.com/rotimi-best/classroomio/issues/new/choose).
 
-This will spin up PostgreSQL and Redis containers, install dependencies, and start the API, Web, and Collab servers. See the [CLI documentation](apps/cli/README.md) for more details.
+## Feature Architects
 
-## Submitting Contributions
+We invite innovative minds to contribute to the evolution of ClassroomIO. If you have a compelling feature proposal that could enhance our platform, please initiate a formal issue submission and apply the "Enhancement" label. We highly value and eagerly anticipate each unique idea presented by our community. To ensure thorough understanding and effective evaluation, kindly include a detailed rationale for your proposed feature. Your insights are crucial to our continuous growth and innovation.
 
-This project follows [GitHub's standard forking model](https://guides.github.com/activities/forking/). Please fork the project to submit pull requests.
+## 🛠 Crafting Pull Requests
 
-### Submitting a bug/fix
+Ready to dive into the code and make a real impact? Here's your path:
 
-- Start an issue [here](https://github.com/learnhouse/learnhouse/issues) to report the bug.
-- Please include a detailed description of the bug and how it can be reproduced.
-- Someone from the team will review the issue and will give you a go ahead.
+1. **Fork the Repository:** Fork our repository or use [Gitpod](https://classroomio.com/docs/contributor-guides/gitpod)
 
-### Submitting a feature / idea
+2. **Implementation:** Code it out, test it and apply your changes.
 
-- Start a Discussion [here](https://github.com/learnhouse/learnhouse/discussions/categories/ideas) to propose your idea and how it should be implemented.
-- Someone from the team will review your idea and will give you a go ahead.
-- Start an issue & link the discussion to it.
-- Clone your fork locally
-- Create a new branch and make your commits
-- Push your commits to your forked repo
-- Make a Pull request
-- Code will be added after review
+3. **Pull Request:** If you're ready to go, create a new pull request following our PR template
+
+Would you prefer a chat before you dive into a lot of work? Our [Discord server](https://dub.sh/ciodiscord) is your harbor. Share your thoughts, and we'll meet you there with open arms. We're responsive and friendly, promise!
+
+## Features
+
+If you spot a feature that isn't part of our official plan but could propel ClassroomIO forward, don't hesitate. Raise it as an enhancement issue, and let us know you're ready to take the lead. We'll be quick to respond.
+
+Together, let's craft the future of ClassroomIO, making it better, bolder, and more brilliant!
